@@ -27,6 +27,7 @@ Explain LLM concepts in 10 words or less.
 - **Reinforcement Learning from Human Feedback (RLHF):** Maximize rewards learned from human-ranked response examples
 - **Reinforcement Learning with Verifiable Rewards (RLVR):** Train with rewards from automatically verified outcomes
 - **Group Relative Policy Optimization (GRPO):** Reinforce better answers within a group from the same prompt
+- **Proximal Policy Optimization (PPO):** Reinforce better answers using value estimates and clipped policy updates
 - **Distillation:** Train a smaller model to imitate a stronger model
 - **Abliteration:** Remove refusal directions from activations or model weights
 - **LoRA:** Train low-rank weight updates instead of full weights
@@ -36,6 +37,7 @@ Explain LLM concepts in 10 words or less.
 - **Prefill:** Process prompt tokens and populate KV cache
 - **Chunked prefill:** Split long prefills to avoid blocking short prefills
 - **Decode:** Generate tokens one at a time using cached context
+- **Guided decoding:** Constrain output tokens by setting out-of-grammar token logits to -inf
 - **Prefill-decode disaggregation:** Serve compute-bound prefill and bandwidth-bound decode separately
 - **Arithmetic intensity:** Computation performed per byte of memory moved
 - **KV caching:** Reuse past keys and values during decoding
@@ -43,5 +45,7 @@ Explain LLM concepts in 10 words or less.
 - **Prefix caching:** Reuse KV cache for identical prompt prefixes
 - **FlashAttention:** Compute tiled attention on-chip before writing outputs to memory
 - **Quantization:** Reduce floating-point precision to save memory
+- **GGUF:** Standardised format for storing model tensors and metadata
+- **MLX:** Unified CPU and GPU memory framework on Apple Silicon
 - **Speculative decoding:** Draft with smaller model; verify with larger model
 - **Continuous batching:** Add new requests as existing requests finish
