@@ -20,11 +20,11 @@ Explain LLM concepts in 10 words or less.
 
 - **Pretraining:** Learn general language patterns from large unlabeled corpora
 - **Continued pretraining (CPT):** Continue pretraining on new or domain-specific data
-- **Supervised fine-tuning (SFT):** Train on input-output examples with supervised loss
-- **Direct Preference Optimization (DPO):** Train on preferred versus rejected responses
+- **Supervised fine-tuning (SFT):** Minimize loss on labeled input-output examples
+- **Direct Preference Optimization (DPO):** Minimize loss on preferred-rejected response pairs
 - **Masked Language Modeling:** Predict masked tokens from surrounding context
 - **Causal Language Modeling:** Predict the next token from previous tokens
-- **Reinforcement Learning from Human Feedback (RLHF):** RL using rewards from human preferences
+- **Reinforcement Learning from Human Feedback (RLHF):** Maximize rewards learned from human-ranked response examples
 - **Reinforcement Learning with Verifiable Rewards (RLVR):** Train with rewards from automatically verified outcomes
 - **Group Relative Policy Optimization (GRPO):** Reinforce better answers within a group from the same prompt
 - **Distillation:** Train a smaller model to imitate a stronger model
