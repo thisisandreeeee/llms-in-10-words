@@ -1,6 +1,6 @@
 # LLMs in 10 words
 
-Explain LLM concepts in 10 words or less.
+Complex LLM concepts explained in 10 words or less.
 
 ## Transformers
 
