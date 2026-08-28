@@ -51,3 +51,8 @@ Complex LLM concepts explained in 10 words or less.
 - **MLX:** Unified CPU and GPU memory framework on Apple Silicon
 - **Speculative decoding:** Draft with smaller model; verify with larger model
 - **Continuous batching:** Add new requests as existing requests finish
+
+## Contributions are welcome!
+
+1. Read [CONTRIBUTING.md](./CONTRIBUTING.md)
+2. Submit a PR
