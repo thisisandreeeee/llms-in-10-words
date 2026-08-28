@@ -1,8 +1,8 @@
 # LLMs in 10 words
 
-Complex LLM concepts explained in 10 words or less.
+Complex LLM concepts explained in **10 words or less**.
 
-⭐ Star this repo if you want a concise LLM reference.
+⭐ Found this useful? Consider starring the repo.
 
 ## Transformers
 
@@ -52,7 +52,16 @@ Complex LLM concepts explained in 10 words or less.
 - **Speculative decoding:** Draft with smaller model; verify with larger model
 - **Continuous batching:** Add new requests as existing requests finish
 
-## Contributions are welcome!
+## Contributing
 
-1. Read [CONTRIBUTING.md](./CONTRIBUTING.md)
-2. Submit a PR
+Found a concept that's missing, unclear, or oversimplified? Contributions are welcome.
+
+Good contributions include:
+
+1. Adding an important LLM concept
+2. Making an explanation more accurate
+3. Making an explanation simpler without losing meaning
+
+Keep every explanation to 10 words or fewer and follow the style in [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+Open a PR with your proposed change.
