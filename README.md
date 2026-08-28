@@ -2,6 +2,8 @@
 
 Complex LLM concepts explained in 10 words or less.
 
+⭐ Star this repo if you want a concise LLM reference.
+
 ## Transformers
 
 - **Attention:** Weight token representations by relevance to each other
