@@ -7,23 +7,23 @@ Complex LLM concepts explained in **10 words or less**.
 ## Transformers
 
 - **Attention:** Weight token representations by relevance to each other
-- **Multi-head attention (MHA):** One KV head per query head
-- **Multi-query attention (MQA):** One KV head shared by all query heads
-- **Grouped-query attention (GQA):** One KV head shared by each query-head group
-- **Multi-head latent attention (MLA):** One compressed KV representation shared by all query heads
-- **Residual connections:** Add earlier representations back into later layers
-- **Attention residuals:** Attend over outputs from all earlier layers
+- **Multi-Head Attention (MHA):** One KV head per query head
+- **Multi-Query Attention (MQA):** One KV head shared by all query heads
+- **Grouped-Query Attention (GQA):** One KV head shared by each query-head group
+- **Multi-Head Latent Attention (MLA):** One compressed KV representation shared by all query heads
+- **Residual Connections:** Add earlier representations back into later layers
+- **Attention Residuals:** Attend over outputs from all earlier layers
 - **Kimi Delta Attention (KDA):** Store compact delta-updated memory instead of full KV history
 - **Mixture of Experts (MoE):** Route each token through a subset of experts
 - **Latent MoE:** Compress tokens before expert routing and computation
-- **Rotary positional embeddings (RoPE):** Encode token position by rotating query and key vectors
-- **Looped transformers:** Reuse transformer layers; same weights, more thinking
+- **Rotary Positional Embeddings (RoPE):** Encode token position by rotating query and key vectors
+- **Looped Transformers:** Reuse transformer layers; same weights, more thinking
 
 ## Training
 
 - **Pretraining:** Learn general language patterns from large unlabeled corpora
-- **Continued pretraining (CPT):** Continue pretraining on new or domain-specific data
-- **Supervised fine-tuning (SFT):** Minimize loss on labeled input-output examples
+- **Continued Pretraining (CPT):** Continue pretraining on new or domain-specific data
+- **Supervised Fine-Tuning (SFT):** Minimize loss on labeled input-output examples
 - **Direct Preference Optimization (DPO):** Minimize loss on preferred-rejected response pairs
 - **Masked Language Modeling:** Predict masked tokens from surrounding context
 - **Causal Language Modeling:** Predict the next token from previous tokens
@@ -39,21 +39,21 @@ Complex LLM concepts explained in **10 words or less**.
 ## Inference
 
 - **Prefill:** Process prompt tokens and populate KV cache
-- **Chunked prefill:** Split long prefills to avoid blocking short prefills
+- **Chunked Prefill:** Split long prefills to avoid blocking short prefills
 - **Decode:** Generate tokens one at a time using cached context
-- **Guided decoding:** Constrain output tokens by setting out-of-grammar token logits to -inf
-- **Prefill-decode disaggregation:** Serve compute-bound prefill and bandwidth-bound decode separately
-- **Arithmetic intensity:** Computation performed per byte of memory moved
-- **KV caching:** Reuse past keys and values during decoding
+- **Guided Decoding:** Constrain output tokens by setting out-of-grammar token logits to -inf
+- **Prefill-Decode Disaggregation:** Serve compute-bound prefill and bandwidth-bound decode separately
+- **Arithmetic Intensity:** Computation performed per byte of memory moved
+- **KV Caching:** Reuse past keys and values during decoding
 - **PagedAttention:** Store KV cache in non-contiguous memory blocks
-- **Prefix caching:** Reuse KV cache for identical prompt prefixes
+- **Prefix Caching:** Reuse KV cache for identical prompt prefixes
 - **FlashAttention:** Compute tiled attention on-chip before writing outputs to memory
 - **Quantization:** Reduce floating-point precision to save memory
 - **GGUF:** Standardised format for storing model tensors and metadata
 - **MLX:** Unified CPU and GPU memory framework on Apple Silicon
-- **Speculative decoding:** Draft with smaller model; verify with larger model
-- **Continuous batching:** Add new requests as existing requests finish
-- **Inference time scaling:** Use more inference tokens to improve answers through reasoning
+- **Speculative Decoding:** Draft with smaller model; verify with larger model
+- **Continuous Batching:** Add new requests as existing requests finish
+- **Inference Time Scaling:** Use more inference tokens to improve answers through reasoning
 
 ## Contributing
 
