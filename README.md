@@ -34,6 +34,7 @@ Complex LLM concepts explained in **10 words or less**.
 - **Distillation:** Train a smaller model to imitate a stronger model
 - **Abliteration:** Remove refusal directions from activations or model weights
 - **LoRA:** Train low-rank weight updates instead of full weights
+- **Byte Pair Encoding (BPE):** Tokenise using common subwords learned from a corpus
 
 ## Inference
 
@@ -52,6 +53,7 @@ Complex LLM concepts explained in **10 words or less**.
 - **MLX:** Unified CPU and GPU memory framework on Apple Silicon
 - **Speculative decoding:** Draft with smaller model; verify with larger model
 - **Continuous batching:** Add new requests as existing requests finish
+- **Inference time scaling:** Use more inference tokens to improve answers through reasoning
 
 ## Contributing
 
