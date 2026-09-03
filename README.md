@@ -17,6 +17,7 @@ Complex LLM concepts explained in **10 words or less**.
 - **Mixture of Experts (MoE):** Route each token through a subset of experts
 - **Latent MoE:** Compress tokens before expert routing and computation
 - **Rotary positional embeddings (RoPE):** Encode token position by rotating query and key vectors
+- **Looped transformers:** Reuse transformer layers; same weights, more thinking
 
 ## Training
 
@@ -29,7 +30,7 @@ Complex LLM concepts explained in **10 words or less**.
 - **Reinforcement Learning from Human Feedback (RLHF):** Maximize rewards learned from human-ranked response examples
 - **Reinforcement Learning with Verifiable Rewards (RLVR):** Train with rewards from automatically verified outcomes
 - **Group Relative Policy Optimization (GRPO):** Reinforce better answers within a group from the same prompt
-- **Proximal Policy Optimization (PPO):** Reinforce better answers using value estimates and clipped policy updates
+- **Proximal Policy Optimization (PPO):** Reinforce better answers using value estimates from a reward model
 - **Distillation:** Train a smaller model to imitate a stronger model
 - **Abliteration:** Remove refusal directions from activations or model weights
 - **LoRA:** Train low-rank weight updates instead of full weights
