@@ -14,7 +14,7 @@ Complex LLM concepts explained in **10 words or less**.
 - **Residual Connections:** Add earlier representations back into later layers
 - **Attention Residuals:** Attend over outputs from all earlier layers
 - **Kimi Delta Attention (KDA):** Store compact delta-updated memory instead of full KV history
-- **Compressed Sparse Attention 2 (CSA2):** Share KV across layers, occasionally refresh which past tokens matter
+- **Compressed Sparse Attention 2 (CSA2):** Reuse KV across layers, occasionally refresh cached tokens
 - **Causal Encoder-Decoder (CED):** Use encoder hidden states for decoder KV, halving prefill compute
 - **Mixture of Experts (MoE):** Route each token through a subset of experts
 - **Latent MoE:** Compress tokens before expert routing and computation
